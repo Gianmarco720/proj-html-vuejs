@@ -1,1 +1,10 @@
-@use '../../../node_modules/bootstrap/scss/bootstrap.scss'
+@use '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+img {
+    max-width: 100%;
+}
+
+.my_container {
+    width: 80%;
+    margin: 0 auto;
+}
