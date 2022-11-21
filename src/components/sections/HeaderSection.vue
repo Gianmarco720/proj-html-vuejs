@@ -26,7 +26,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/variables.scss' as *;
+@use '../../assets/scss/variables.scss' as *;
 
 section {
     padding: 15% 0;

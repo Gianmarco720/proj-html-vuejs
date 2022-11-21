@@ -1,5 +1,5 @@
 <script>
-import HeaderSection from '../HeaderSection.vue';
+import HeaderSection from '../sections/HeaderSection.vue';
 import Navbar from '../Navbar.vue'
 export default {
     name: 'AppHeader',
