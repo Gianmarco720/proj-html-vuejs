@@ -33,10 +33,12 @@ section {
 
     .btn-warning {
         background-color: $seo-yellow-orange;
+        padding: 0.75rem 1.5rem;
     }
 
     .btn-primary {
         background-color: #556EED;
+        padding: 0.75rem 1.5rem;
     }
 }
 </style>
