@@ -1,20 +1,24 @@
 <script>
 import AgencySection from '../sections/AgencySection.vue';
 import ServicesSection from '../sections/ServicesSection.vue';
+import WorkSection from '../sections/WorkSection.vue';
 
 export default {
     name: "AppMain",
-    components: { AgencySection, ServicesSection }
+    components: { AgencySection, ServicesSection, WorkSection }
 }
 </script>
 
 <template>
     <main>
-        <!-- Prima sezione -->
+        <!-- Prima sezione: Agency -->
         <AgencySection />
 
-        <!-- Seconda sezione -->
+        <!-- Seconda sezione: Services -->
         <ServicesSection />
+
+        <!-- Terza sezione: Work -->
+        <WorkSection />
     </main>
 </template>
 
