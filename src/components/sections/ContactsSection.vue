@@ -28,6 +28,12 @@ section {
 
     .section_desc {
         margin: 5% 40%;
+
+        .my_button {
+            .btn_warning {
+                background-color: $seo-yellow-orange;
+            }
+        }
     }
 }
 </style>
