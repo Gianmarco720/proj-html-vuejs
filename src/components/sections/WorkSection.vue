@@ -24,6 +24,9 @@ export default {
                     <div class="col"><img src="../../assets/img/case-study-gallery-6-1-1200x900.jpg" alt=""></div>
                 </div>
             </div>
+            <div class="my_button text-center">
+                <a class="btn btn-warning text-uppercase rounded-pill fw-bold" href="#" role="button">View our work</a>
+            </div>
         </div>
     </section>
 </template>
@@ -34,8 +37,21 @@ export default {
 section {
     padding: 5% 0;
 
-    .section_desc {
-        margin: 0 40%;
+    .my_container {
+        .section_desc {
+            margin: 0 40%;
+        }
+
+        .my_button {
+            padding-top: 5%;
+
+            .btn-warning {
+                background-color: $seo-yellow-orange;
+                color: white;
+                padding: 0.5rem 1.75rem;
+            }
+        }
     }
+
 }
 </style>
