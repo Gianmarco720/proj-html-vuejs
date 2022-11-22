@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <section class="pt-5">
+  <section>
     <div class="my_container text-center">
       <div class="section_desc">
         <h2 class="text-center fw-bold">Meet The New Agency SEO Template Form The Avada Team</h2>
@@ -15,19 +15,34 @@ export default {
       <div class="my_container mt-5">
         <div class="row cols-4 gap-5">
           <div class="col">
-            <h3>Establish Goals</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam asperiores velit unde voluptatum
-              maiores deserunt doloribus cumque expedita suscipit!</p>
+            <div class="icon">
+              <font-awesome-icon icon="fa-solid fa-road" />
+            </div>
+            <div class="text">
+              <h3 class="fw-bold">Establish Goals</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam asperiores velit unde voluptatum
+                maiores deserunt doloribus cumque expedita suscipit!</p>
+            </div>
           </div>
           <div class="col">
-            <h3>Work With a Team</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam asperiores velit unde voluptatum
-              maiores deserunt doloribus cumque expedita suscipit!</p>
+            <div class="icon">
+              <font-awesome-icon icon="fa-solid fa-video" />
+            </div>
+            <div class="text">
+              <h3 class="fw-bold">Work With a Team</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam asperiores velit unde voluptatum
+                maiores deserunt doloribus cumque expedita suscipit!</p>
+            </div>
           </div>
           <div class="col">
-            <h3>Get Results</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam asperiores velit unde voluptatum
-              maiores deserunt doloribus cumque expedita suscipit!</p>
+            <div class="icon">
+              <font-awesome-icon icon="fa-solid fa-droplet" />
+            </div>
+            <div class="text">
+              <h3 class="fw-bold">Get Results</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam asperiores velit unde voluptatum
+                maiores deserunt doloribus cumque expedita suscipit!</p>
+            </div>
           </div>
         </div>
       </div>
@@ -43,6 +58,7 @@ export default {
 
 section {
   background-color: $seo-alabaster;
+  padding-top: 5%;
 
   .section_desc {
     margin: 0 35%
@@ -50,6 +66,16 @@ section {
 
   .col {
     background-color: white;
+
+    .icon {
+      font-size: 35px;
+      padding: 10%;
+      color: $seo-yellow-orange;
+    }
+
+    .text {
+      padding: 5% 10%;
+    }
   }
 }
 </style>
