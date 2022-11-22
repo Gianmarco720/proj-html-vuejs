@@ -168,6 +168,10 @@ export default {
             a {
                 font-weight: bold;
             }
+
+            .btn-warning {
+                background-color: $seo-yellow-orange;
+            }
         }
     }
 }

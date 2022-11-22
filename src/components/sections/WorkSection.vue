@@ -36,6 +36,7 @@ export default {
 
 section {
     padding: 5% 0;
+    background-color: $seo-alabaster;
 
     .my_container {
         .section_desc {
