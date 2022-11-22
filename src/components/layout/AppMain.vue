@@ -4,10 +4,11 @@ import ServicesSection from '../sections/ServicesSection.vue';
 import WorkSection from '../sections/WorkSection.vue';
 import PlansSection from '../sections/PlansSection.vue';
 import NewsSection from '../sections/NewsSection.vue';
+import ClientsSection from '../sections/ClientsSection.vue';
 
 export default {
     name: "AppMain",
-    components: { AgencySection, ServicesSection, WorkSection, PlansSection, NewsSection }
+    components: { AgencySection, ServicesSection, WorkSection, PlansSection, NewsSection, ClientsSection }
 }
 </script>
 
@@ -27,6 +28,9 @@ export default {
 
         <!-- Quinta sezione: News -->
         <NewsSection />
+
+        <!-- Sesta sezione: Clients -->
+        <ClientsSection />
     </main>
 </template>
 
