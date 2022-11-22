@@ -1,9 +1,10 @@
 <script>
 import AgencySection from '../sections/AgencySection.vue';
+import ServicesSection from '../sections/ServicesSection.vue';
 
 export default {
     name: "AppMain",
-    components: { AgencySection }
+    components: { AgencySection, ServicesSection }
 }
 </script>
 
@@ -11,6 +12,9 @@ export default {
     <main>
         <!-- Prima sezione -->
         <AgencySection />
+
+        <!-- Seconda sezione -->
+        <ServicesSection />
     </main>
 </template>
 
