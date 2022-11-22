@@ -8,7 +8,7 @@ export default {
     <section>
         <div class="my_container">
             <div class="section_desc text-center">
-                <h2 class="pb-2">See Our Top Notch Services</h2>
+                <h2 class="pb-2 fw-bold">See Our Top Notch Services</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores velit ea totam?</p>
             </div>
             <div class="my_container mt-5">
